@@ -1,0 +1,154 @@
+/* ----------------------------------
+   About Us Section Styles
+---------------------------------- */
+
+/* Background color for the About Us section */
+.aboutus {
+  background-color: #0049b1;
+}
+
+/* Dot style in the "About Us" heading */
+.aboutus-dot {
+  color: #0ec6ff;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Background image settings */
+.aboutus-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+/* Padding and spacing for the content within the About Us section */
+.aboutus-content {
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-left: 180px;
+}
+
+/* ----------------------------------
+   Text Styles
+---------------------------------- */
+
+/* Sub-heading text style */
+.aboutus-sub-heading {
+  color: #0ec6ff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* Description text style */
+.aboutus-description {
+  margin: 0 0 20px;
+  color: #c5ddff;
+  font-size: 22px;
+  line-height: 36px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+/* Main heading text style */
+.aboutus-heading {
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------
+   Media Queries for Responsive Design
+---------------------------------- */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+  .aboutus {
+    padding: 20px 40px 20px 40px;
+  }
+
+  .aboutus-content {
+    padding: 20px 15px;
+  }
+
+  .aboutus-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 36px;
+  }
+
+  .aboutus-sub-heading {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .aboutus-description {
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+
+  .aboutus-dot {
+    font-size: 20px;
+  }
+
+  .aboutus-image {
+    margin-top: 20px;
+  }
+
+  .aboutus-image img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Media query for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px 60px 40px;
+  }
+
+  .aboutus-image,
+  .aboutus-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  .aboutus-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .aboutus-content {
+    padding: 20px;
+  }
+
+  .aboutus-heading {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .aboutus-description {
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 2;
+  }
+
+  .aboutus-sub-heading {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}

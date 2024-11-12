@@ -1,0 +1,213 @@
+/* Header styles for the services section */
+.recruitment-services-sub-heading {
+  color: #121bc9;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+/* Title styles for the services section */
+.recruitment-services-heading {
+  color: #080303;
+
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+/* Card title styles for each service */
+.recruitment-services-card-title {
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Text styles for the descriptions inside each service card */
+.recruitment-services-text {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 400;
+  color: #606060;
+}
+
+/* Styles for the service card container */
+.recruitment-services-card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.recruitment-container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+/* Styles for the row containing the service cards */
+.recruitment-services-card-row {
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: center;
+}
+
+/* Additional styles for the card body */
+.recruitment-services-card-body {
+  margin-top: 30px;
+}
+
+/* Styles for the decorative dots in the header */
+.recruitment-services-dot {
+  color: #121bc9;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Animation styles for zoom-in effect on cards */
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* Keyframes for zoom-in animation (WebKit-specific) */
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Keyframes for zoom-in animation */
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Media query for phone devices with a max-width of 767px */
+
+@media only screen and (max-width: 767px) {
+  .recruitment-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .recruitment-services-sub-heading {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .recruitment-services-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .recruitment-services-card-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .recruitment-services-card {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+  }
+
+  .recruitment-services-card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .recruitment-services-text {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .recruitment-services-dot {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .zoomIn {
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+  }
+}
+
+/* Media query for devices with a screen width between 768px and 1024px */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .recruitment-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .recruitment-services-sub-heading {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .recruitment-services-heading {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .recruitment-services-card-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .recruitment-services-card {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+
+  .recruitment-services-card-title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .recruitment-services-text {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .recruitment-services-dot {
+    font-size: 22px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+
+  .zoomIn {
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+  }
+}

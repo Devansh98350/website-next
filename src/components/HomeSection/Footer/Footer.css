@@ -1,0 +1,190 @@
+/* Social Media Icon Styling */
+.social-media-icon {
+  background-color: #ffffff;
+  color: #0049b1;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.social-media-icon:hover {
+  background-color: aliceblue;
+}
+
+/* Social Icons Container */
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+/* Footer Heading Styling */
+.footer-heading {
+  color: #ffffff;
+  font-family: "Red Hat Display", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+/* Footer Text Styling */
+.footer-text {
+  color: #ffffff;
+  font-family: "Red Hat Text", Sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 24px;
+  list-style: none;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+/* Footer Content Styling */
+.footer-content {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+/* Footer Container Styling */
+.footer-container {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+  background-color: #005fd7;
+}
+
+/* Footer Link Styling */
+.footer-link {
+  padding-left: 0px;
+}
+
+/* List Item Styling */
+li {
+  padding-bottom: 10px;
+}
+
+/* SVG Container Styling */
+.svg-container {
+  text-align: center;
+  background-color: #005fd7;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* SVG Path Styling */
+.svg-path {
+  width: 100%;
+  height: auto;
+}
+
+/* Span Text Styling */
+.span-text {
+  color: #9ee8ff;
+  font-family: "Red Hat Text", sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+/* Media Queries */
+
+/* For screens with a maximum width of 767px (Mobile) */
+@media only screen and (max-width: 767px) {
+  .footer-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+  }
+
+  .footer-content {
+    text-align: start;
+    margin-bottom: 30px;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .social-icons {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .social-media-icon {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+  }
+
+  li {
+    padding-bottom: 5px;
+  }
+
+  /* Span Text Styling */
+  .span-text {
+    font-size: 14px;
+  }
+}
+
+/* For screens with a width between 768px and 1024px (Tablet) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 500px;
+  }
+
+  .footer-content {
+    text-align: start;
+    margin-bottom: 40px;
+  }
+
+  .footer-heading {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .social-icons {
+    gap: 8px;
+    margin-top: 30px;
+  }
+
+  .social-media-icon {
+    font-size: 100px;
+    width: 50px;
+    height: 30px;
+    padding: 4px;
+  }
+
+  li {
+    padding-bottom: 8px;
+  }
+
+  .span-text {
+    font-size: 15px;
+  }
+}

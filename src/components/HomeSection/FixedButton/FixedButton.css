@@ -1,0 +1,57 @@
+/* Fixed Button Styles */
+.fixed-icon {
+  background-color: #ffffff;
+  color: #00c3ff;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  margin-left: 14px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px;
+  right: -80px;
+  z-index: 1000;
+  font-weight: 400;
+  box-shadow: 6px 6px 13px 0px rgba(42, 67, 113, 0.2);
+  justify-content: center;
+  margin-right: 20px;
+  transition: right 0.3s ease-in-out;
+}
+
+/* Show Button Styles */
+.fixed-icon.show {
+  right: 20px;
+}
+
+/* Hide Button Styles */
+.fixed-icon.hide {
+  right: -80px;
+}
+
+/* Button Hover Effect */
+.fixed-icon:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fixed-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    bottom: 25px;
+    right: 25px;
+  }
+
+  .fixed-icon.show {
+    right: 25px;
+  }
+
+  .fixed-icon.hide {
+    right: -85px;
+  }
+}

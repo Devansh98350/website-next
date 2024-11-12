@@ -1,0 +1,12 @@
+/* Unified container for background image */
+.background-container {
+  background-image: url("../../../images/navbar-aboutus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+.navbar-aboutus {
+  background-color: rgb(20, 89, 186);
+}

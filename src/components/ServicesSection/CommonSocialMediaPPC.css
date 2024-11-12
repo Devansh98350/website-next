@@ -1,0 +1,892 @@
+/* first row */
+
+.ser-sub {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.ser-sub-first {
+  background-image: url("../../images/ServicesSubPageImages/ser-sub-common-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+
+.ser-sub-first {
+  display: block;
+  text-align: center;
+}
+
+.ser-sub-first h1 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #1a1b1e;
+}
+
+.homepage-link {
+  color: #a5b7d2;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.homepage-link:hover {
+  color: orangered;
+}
+
+.ser-sub-first p {
+  padding-top: 20px;
+}
+
+.greater-than-icon {
+  color: #a5b7d2;
+  vertical-align: middle;
+}
+
+.current-page {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #1a1b1e;
+}
+
+/* Second row */
+
+.social-media-ppc-sec {
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.social-media-ppc-sec-content {
+  text-align: left;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.social-media-ppc-dot {
+  font-size: 22px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.social-media-ppc-sec h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a5b7d2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.social-media-ppc-sec h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #1a1b1e;
+}
+
+.social-media-ppc-sec p {
+  color: #606060;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.social-media-ppc-sec-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  max-width: 600px;
+  height: auto;
+  padding-top: 30px;
+}
+
+/* Third row */
+
+.social-media-ppc-thi {
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 100px;
+}
+
+.social-media-ppc-thi-card {
+  padding: 35px 35px 26px;
+  background-color: #fff;
+  box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+  border-radius: 15px;
+  font-family: "Red Hat Text", sans-serif;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.social-media-ppc-thi-card:hover {
+  background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+  background-color: #0039e4;
+}
+
+.social-media-ppc-thi-card:hover .small-number {
+  background-color: white !important;
+  color: #04dbf1 !important;
+  background-image: linear-gradient(145deg, #fff, #fff);
+}
+
+.social-media-ppc-thi-card:hover .social-media-ppc-thi-card-content h5,
+.social-media-ppc-thi-card:hover .social-media-ppc-thi-card-content p {
+  color: #fff !important;
+}
+
+.social-media-ppc-thi-card:hover .small-number {
+  color: #04dbf1;
+  background-color: white;
+}
+
+.social-media-ppc-thi-card:hover .big-number {
+  color: #32d8fa;
+}
+
+.small-number {
+  float: left;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #0039e4;
+  background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+  box-shadow: 8px 8px 20px 0px rgba(42, 67, 113, 0.3);
+  font-size: 16px;
+}
+
+.social-media-ppc-thi-card-content {
+  padding-left: 75px;
+}
+
+.social-media-ppc-thi-card-content p {
+  color: #606060;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 400;
+}
+
+.social-media-ppc-thi-card-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1a1b1e;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.big-number {
+  padding-left: 320px;
+  bottom: -9px;
+  font-size: 88px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1;
+  color: rgba(165, 183, 210, 0.2);
+  display: overlay;
+  position: absolute;
+}
+
+/* Fourth row */
+
+.social-media-ppc-four-section {
+  text-align: center;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 80px;
+}
+
+.social-media-ppc-four-section h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a5b7d2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.social-media-ppc-four-section h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #1a1b1e;
+}
+
+.social-media-ppc-four-section p {
+  color: #606060;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.social-media-ppc-four {
+  padding-top: 20px;
+}
+
+.social-media-ppc-four-card {
+  background-color: #fff;
+  box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+  border-radius: 15px;
+  font-family: "Red Hat Text", sans-serif;
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+  z-index: 1;
+  transition: transform 0.2s ease;
+}
+
+.social-media-ppc-four-card:hover {
+  transform: translateY(-20px);
+}
+
+.social-media-ppc-four-card-header {
+  position: relative;
+}
+
+.social-media-ppc-four-card-title {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  font-size: 13px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background: #00c3ff;
+  padding: 5px 15px;
+  letter-spacing: 0.5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 8px 8px 18px 0px rgba(42, 67, 113, 0.3);
+  text-align: center;
+  line-height: 1.875;
+}
+
+.social-media-ppc-four-card-image-top {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+  right: 70px;
+}
+
+.social-media-ppc-four-card-image-bottom {
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+  z-index: -1;
+  left: 0px;
+}
+
+.social-media-ppc-four-card-image {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.social-media-ppc-four-card-price {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.card-1 {
+  color: #00c3ff;
+}
+
+.card-2 {
+  color: #0160e7;
+}
+
+.card-3 {
+  color: #fe4c1c;
+}
+
+.card-title-1 {
+  background-color: #00c3ff;
+}
+
+.card-title-2 {
+  background-color: #0160e7;
+}
+
+.card-title-3 {
+  background-color: #fe4c1c;
+}
+
+.social-media-ppc-four-card-content {
+  text-align: center;
+}
+
+.social-media-ppc-four-card-content h1 {
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
+
+.social-media-ppc-four-card-content p {
+  color: #a5b7d2;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.social-media-ppc-four-card-content ul {
+  list-style: none;
+  margin-top: 35px;
+  padding-top: 28px;
+  line-height: 30px;
+  border-top: 1px solid #e5e5e5;
+  color: #606060;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.border-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.social-media-ppc-four-card-button {
+  box-shadow: 8px 8px 18px 0px rgba(0, 195, 255, 0.3);
+  background: #00c3ff;
+  text-align: left;
+  padding: 5px 5px 5px 28px;
+  font-size: 16px;
+  line-height: 1;
+  display: inline-block;
+  margin: 0;
+  line-height: 1;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: #fff;
+  position: relative;
+  font-family: "Red Hat Display", sans-serif;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+/* ----------------------------------
+   Button Styles
+---------------------------------- */
+
+/* Styles for the "Start Now" button */
+.social-media-ppc-four-card-button-container {
+  position: absolute;
+  left: 0px;
+  bottom: -26px;
+  width: 100%;
+  text-align: center;
+  overflow: visible;
+}
+
+.choose-Plane-button-1,
+.choose-Plane-button-2,
+.choose-Plane-button-3 {
+  color: #fff;
+
+  text-align: left;
+  padding: 5px 5px 5px 28px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  font-family: "Red Hat Display", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.choose-Plane-button-1 {
+  background-color: #00c3ff;
+}
+
+.choose-Plane-button-2 {
+  background-color: #0160e7;
+}
+.choose-Plane-button-3 {
+  background-color: #fe4c1c;
+}
+
+.choose-Plane-button-1::before,
+.choose-Plane-button-2::before,
+.choose-Plane-button-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: left 0.4s ease;
+}
+
+.choose-Plane-button-1:hover::before,
+.choose-Plane-button-2:hover::before,
+.choose-Plane-button-3:hover::before {
+  left: 100%;
+}
+
+.choose-Plane-button-1:hover,
+.choose-Plane-button-2:hover,
+.choose-Plane-button-3:hover {
+  color: white;
+}
+
+.choose-Plane-button-1:hover {
+  background-color: #00c3ff;
+  border-color: #00c3ff;
+}
+
+.choose-Plane-button-2:hover {
+  background-color: #0160e7;
+  border-color: #0160e7;
+}
+
+.choose-Plane-button-3:hover {
+  background-color: #fe4c1c;
+  border-color: #fe4c1c;
+}
+
+.choose-Plane-arrow-icon-1,
+.choose-Plane-arrow-icon-2,
+.choose-Plane-arrow-icon-3 {
+  background-color: #ffffff;
+
+  border-radius: 50px;
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 14px;
+}
+
+.choose-Plane-arrow-icon-1 {
+  color: #00c3ff;
+}
+
+.choose-Plane-arrow-icon-2 {
+  color: #0160e7;
+}
+
+.choose-Plane-arrow-icon-3 {
+  color: #fe4c1c;
+}
+
+/* Fifth row */
+
+.social-media-ppc-fif-section {
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-bottom: 180px;
+  padding-top: 180px;
+  background-color: #f4f8f9;
+}
+
+.social-media-ppc-fif-content h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #a5b7d2;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.social-media-ppc-fif-content h2 {
+  margin-bottom: 25px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 20px;
+  color: #1a1b1e;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* Styling for the carousel arrow icons */
+
+.social-media-ppc-arrow-icon {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 13px 0px rgba(42, 67, 113, 0.2);
+  border-radius: 50px;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #0ec6ff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.social-media-ppc-arrow-icon:hover {
+  background-color: #00c3ff;
+  color: white;
+}
+
+.social-media-ppc-fif-slide-content p {
+  font-size: 18px;
+  color: #1a1b1e;
+  margin-bottom: 32px;
+  text-align: center;
+  line-height: 1.875;
+  font-weight: 400;
+}
+
+.social-media-ppc-fif-slide-content h5 {
+  font-weight: 900;
+  line-height: 1.2;
+  color: #1a1b1e;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.social-media-ppc-fif-slide-image {
+  display: inline-block;
+  margin-bottom: 42px;
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  vertical-align: middle;
+}
+
+.social-media-ppc-fif-slide-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-ppc-fif-card-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-ppc-fif-card {
+  position: relative;
+  z-index: 2;
+  box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+  border-radius: 15px;
+  background: #fff;
+  padding: 80px 50px 70px;
+  text-align: center;
+  box-sizing: border-box;
+  max-width: 700px;
+  margin-left: 20px;
+}
+
+.social-media-ppc-fif-card-background {
+  position: absolute;
+  left: 25%;
+  transform: translateX(-50%);
+  width: 55%;
+  height: 620px;
+  background-color: #0039e4;
+  background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+  box-shadow: 8px 8px 8px 8px rgba(16, 184, 245, 0.15);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+/* Media Queries */
+
+/* For screens with a maximum width of 767px (Mobile) */
+@media only screen and (max-width: 767px) {
+  /* Second row */
+
+  .social-media-ppc-sec {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-sec-image {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  /* Third row */
+
+  .social-media-ppc-thi {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .big-number {
+    right: 20px;
+  }
+
+  .social-media-ppc-thi-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .small-number {
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .social-media-ppc-thi-card-content {
+    padding-left: 0;
+    text-align: left;
+  }
+
+  /* Fourth row */
+
+  .social-media-ppc-four-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-four {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-four-card {
+    margin-bottom: 50px;
+  }
+
+  .social-media-ppc-four-card-image-top {
+    right: 30px;
+  }
+
+  .social-media-ppc-four-card-image-bottom {
+    left: 0px;
+  }
+
+  .social-media-ppc-four-card-content {
+    padding-top: 10px;
+  }
+
+  .social-media-ppc-four-card-button-container {
+    bottom: -20px;
+  }
+
+  /* Fifth row */
+
+  .social-media-ppc-fif-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 80px;
+  }
+
+  .social-media-ppc-fif-content {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .social-media-ppc-fif-card-section {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-fif-card-section {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .social-media-ppc-fif-card {
+    padding: 40px 20px;
+  }
+
+  .social-media-ppc-fif-card-background {
+    display: none;
+  }
+
+  .social-media-ppc-fif-slide-image {
+    width: 80px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .social-media-ppc-fif-slide-content h5 {
+    font-size: 16px;
+  }
+
+  .social-media-ppc-fif-slide-content p {
+    font-size: 16px;
+  }
+
+  .social-media-ppc-fif-slide-content .text {
+    font-size: 20px;
+  }
+
+  .social-media-ppc-arrow-icon {
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+}
+
+/* For screens with a width between 768px and 1024px (Tablet) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Second row */
+
+  .social-media-ppc-sec {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-sec-image {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .social-media-ppc-sec .row {
+    flex-direction: column;
+  }
+
+  .social-media-ppc-sec .row > div {
+    width: 100%;
+  }
+
+  /* Third row */
+
+  .social-media-ppc-thi {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+
+  .social-media-ppc-thi-card {
+    padding: 20px;
+    padding-top: 40px;
+  }
+
+  .small-number {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+
+  .big-number {
+    right: 20px;
+  }
+
+  .social-media-ppc-thi .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Fourth row */
+
+  .social-media-ppc-four-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-four-card {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .social-media-ppc-four-card {
+    margin-bottom: 50px;
+  }
+
+  .social-media-ppc-four-card-image-top {
+    right: 60px;
+  }
+
+  .social-media-ppc-four-card-image-bottom {
+    left: 0px;
+  }
+
+  .social-media-ppc-four-card-content {
+    padding-top: 20px;
+  }
+
+  .social-media-ppc-four .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Fifth row */
+
+  .social-media-ppc-fif-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 250px;
+    padding-top: 80px;
+  }
+
+  .social-media-ppc-fif-content {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .social-media-ppc-fif-card-section {
+    padding-left: 0px;
+    padding-right: 20px;
+  }
+
+  .social-media-ppc-fif-card-section {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .social-media-ppc-fif-card {
+    padding: 40px 20px;
+  }
+
+  .social-media-ppc-fif-card {
+    position: relative;
+    z-index: 2;
+    box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
+    border-radius: 15px;
+    background: #fff;
+    padding: 80px 50px 70px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 650px;
+    margin-left: 20px;
+    left: 30px;
+    top: 70px;
+  }
+
+  .social-media-ppc-fif-card-background {
+    position: absolute;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 55%;
+    height: 620px;
+    background-color: #0039e4;
+    background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+    box-shadow: 8px 8px 8px 8px rgba(16, 184, 245, 0.15);
+    border-radius: 15px;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .social-media-ppc-fif-section .col-md-4 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}

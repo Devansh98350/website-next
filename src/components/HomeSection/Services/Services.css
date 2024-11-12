@@ -1,0 +1,191 @@
+/* Global styles for the services section */
+.services {
+  background-image: url("../../../images/services.png");
+  background-color: rgb(0, 73, 177);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 65% auto;
+  padding-top: 70px;
+}
+
+/* Header styles for the services section */
+.services-sub-heading {
+  color: #0ec6ff;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+/* Decorative dots in the header */
+.services-dot {
+  color: #0ec6ff;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Title styles for the services section */
+.services-heading {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.2;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* Styles for the row containing the service cards */
+.services-card-row {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for the service card container */
+.services-card {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #1459ba;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.services-card:hover > .svg-container-services .svg-path-services {
+  fill: #003f99;
+  transition: fill 0.3s ease-in-out;
+}
+
+.services-card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(5, 60, 137, 0.7);
+}
+/* Additional styles for the card body */
+.services-card-body {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card title styles for each service */
+.services-card-title {
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.2;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+/* Text styles for the descriptions inside each service card */
+.services-text {
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  line-height: 1.875;
+  font-weight: 400;
+  color: #c5ddff;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Icon styles for the service cards */
+
+.services-card-icon {
+  font-size: 35px;
+  color: #0ec6ff;
+  cursor: pointer;
+  font-size: 40px;
+  line-height: 1;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Media Queries for phone devices max-width 767px*/
+
+@media only screen and (max-width: 767px) {
+  .services-sub-heading {
+    font-size: 14px;
+  }
+
+  .services-heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .services-card-row {
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-wrap: wrap;
+  }
+
+  .services-card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .services-text {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .services-card-icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .services {
+    padding-bottom: 5px;
+  }
+}
+
+/*Responsive Media Queries for tablet devices min-width-768px to max-width-1024px*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .services-sub-heading {
+    font-size: 16px;
+  }
+
+  .services-heading {
+    font-size: 28px;
+    margin-bottom: 35px;
+  }
+
+  .services-card-row > .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+  }
+
+  .services-card-row {
+    margin-left: 3px;
+    margin-right: 3px;
+    flex-wrap: wrap;
+  }
+
+  .services-card-title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .services-text {
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .services-card-icon {
+    font-size: 35px;
+    margin-bottom: 18px;
+  }
+}

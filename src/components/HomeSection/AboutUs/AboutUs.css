@@ -1,0 +1,350 @@
+/* ----------------------------------
+   About Us Section Styles
+---------------------------------- */
+
+/* Background color for the About Us section */
+.about-us {
+  z-index: 1;
+}
+
+/* Styles for the image used in the About Us section background */
+.about-us-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+/* Padding and spacing for the content within the About Us section */
+.about-us-content {
+  padding-left: 110px;
+  padding-right: 130px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+/* ----------------------------------
+   Text Styles
+---------------------------------- */
+
+/* Styles for the "Find Out More" text */
+.find-out-more-text {
+  color: #0ec6ff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0 0 10px 0;
+}
+
+/* Styles for the main description text */
+.about-us-description {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: "Red Hat Text", sans-serif;
+}
+
+/* Styles for the title text */
+.about-us-title {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+/* ----------------------------------
+   Button Styles
+---------------------------------- */
+
+/* Styles for the "Start Now" button */
+.start-now-button {
+  color: #fff;
+  background: #fe4c1c;
+  text-align: left;
+  padding: 5px 5px 5px 28px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  font-family: "Red Hat Display", sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.start-now-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: left 0.4s ease;
+}
+
+.start-now-button:hover::before {
+  left: 100%;
+}
+
+.start-now-button:hover {
+  color: white;
+  background-color: #fe4c1c;
+  border-color: #fe4c1c;
+}
+
+/* ----------------------------------
+   Icon Styles
+---------------------------------- */
+
+/* Styles for the arrow icon */
+.arrow-icon {
+  background-color: #ffffff;
+  color: #fe4c1c;
+  border-radius: 50px;
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 14px;
+}
+
+/* Styles for the play button icon */
+.play-icon {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  color: #00c3ff;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-icon-wrapper {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-icon:hover {
+  background-color: #00c3ff;
+  color: white;
+}
+
+/* ----------------------------------
+   How It Works Container
+---------------------------------- */
+
+/* Styles for the "How It Works" section */
+.how-it-works-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.how-it-works-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-left: 15px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* ----------------------------------
+   Responsive Media Queries
+---------------------------------- */
+
+/* Phone devices with a max-width of 767px */
+@media only screen and (max-width: 767px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .about-us-content {
+    padding: 80px 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .about-us-image img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+
+  .find-out-more-text {
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  .about-us-title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .about-us-description {
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .start-now-button {
+    font-size: 14px;
+    padding: 5px 5px 5px 20px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .arrow-icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.8rem;
+  }
+
+  .play-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin-left: 130px;
+  }
+
+  .play-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .how-it-works-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .how-it-works-text {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 125px;
+  }
+}
+
+/* Tablet devices with a screen width between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 15px;
+  }
+
+  .about-us-image,
+  .about-us-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  .about-us-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .about-us-content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .find-out-more-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 230px;
+    padding-right: 230px;
+  }
+
+  .about-us-title {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .about-us-description {
+    font-size: 15px;
+    padding-top: 10px;
+    line-height: 2;
+    text-align: center;
+  }
+
+  .start-now-button {
+    font-size: 15px;
+    padding: 8px 8px 8px 16px;
+    border-radius: 35px;
+    margin: 20px 260px;
+  }
+
+  .arrow-icon {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0.9rem;
+  }
+
+  /* .play-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+    margin-left: 250px;
+    border-color: rgba(255, 255, 255, 0.1);
+  } */
+
+  .play-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin-left: 240px;
+  }
+
+  .play-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .how-it-works-container {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .how-it-works-text {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+  }
+}

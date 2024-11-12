@@ -1,0 +1,22 @@
+/* Spacer image: Set width and height for the image */
+.spacer-img {
+  width: 1519px;
+  height: 250px;
+}
+
+/* Media query for small devices */
+@media only screen and (max-width: 767px) {
+  .spacer-img {
+    width: 100%;
+    height: auto;
+    content: url("../../../images/spacer-for-phone.jpg");
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .spacer-img {
+    width: 100%;
+    height: auto;
+    content: url("../../../images/spacer-for-tablet.jpg");
+  }
+}
